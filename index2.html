@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor|Browser Extensions Manager UI</title>
+    <link rel="icon" href="favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body class="budy">
+    <div class="menu">
+      <div class="txt3">
+        <img src="logo1.jpg" alt="logo.svg" />
+        <h3>Extensions</h3>
+      </div>
+      <div class="moon">
+        <button type="button" onclick="button()">
+          <img id="moonImg" src="icon-sun.svg" alt="icon-sun" />
+        </button>
+      </div>
+    </div>
+    <div class="main1">
+      <div class="txt2">
+        <h1>Extensions List</h1>
+      </div>
+      <div class="mon1">
+        <button id="btnAll">All</button>
+        <button id="btnActive">Active</button>
+        <button id="btnInactive">Inactive</button>
+      </div>
+    </div>
+    <div class="submain">
+      <div id="sub1">
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-devlens.svg" alt="logo-devlens" />
+            </div>
+            <div>
+              <h4>Devlens</h4>
+              <p>
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-style-spy.svg" alt="logo-style-spy" />
+            </div>
+            <div>
+              <h4>StyleSpy</h4>
+              <p>Instantly analyze and copy CSS from any webpage element.</p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-speed-boost.svg" alt="logo-speed-boost" />
+            </div>
+            <div>
+              <h4>SpeedBoost</h4>
+              <p>
+                Optimizes browser resource usage to accelerate page loading.
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub1">
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-json-wizard.svg" alt="logo-json-wizard" />
+            </div>
+            <div>
+              <h4>JSONWizard</h4>
+              <p>
+                Formats, validates, and prettifies JSON responses in-browser.
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-tab-master-pro.svg" alt="logo-tab-master-pro" />
+            </div>
+            <div>
+              <h4>TabMaster Pro</h4>
+              <p>Organizes browser tabs into groups and sessions.</p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-viewport-buddy.svg" alt="logo-viewport-buddy" />
+            </div>
+            <div>
+              <h4>ViewportBuddy</h4>
+              <p>
+                Simulates various screen resolutions directly within the browser
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub1">
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-markup-notes.svg" alt="logo-markup-notes" />
+            </div>
+            <div>
+              <h4>Markup Notes</h4>
+              <p>
+                Enables annotation and notes directly onto webpages for
+                collaborative debugging.
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-grid-guides.svg" alt="logo-grid-guides" />
+            </div>
+            <div>
+              <h4>GridGuides</h4>
+              <p>
+                Overlay customizable grids and alignment guides on my wwebpage.
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-palette-picker.svg" alt="logo-palette-picker" />
+            </div>
+            <div>
+              <h4>Palette Picker</h4>
+              <p>Instantly extracts color palettes from any webpage.</p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub1">
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-link-checker.svg" alt="logo-link-checker" />
+            </div>
+            <div>
+              <h4>Linkchecker</h4>
+              <p>Scans and highlights broken links on any page.</p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-dom-snapshot.svg" alt="logo-dom-snapshot" />
+            </div>
+            <div>
+              <h4>DOM Snapshot</h4>
+              <p>
+                Capture and export DOM structures <br />
+                quickly.
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cat1" data-status="inactive">
+          <div class="cat">
+            <div>
+              <img src="logo-console-plus.svg" alt="logo-console-plus" />
+            </div>
+            <div>
+              <h4>ConsolePlus</h4>
+              <p>
+                Enhanced developer console with advanced filtering and logging.
+              </p>
+            </div>
+          </div>
+          <div class="cat2">
+            <div><button class="removeBtn">Remove</button></div>
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="toogleSwitch" class="toggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const cards = document.querySelectorAll(".cat1");
+      const allbtn = document.getElementById("btnAll");
+      const activebtn = document.getElementById("btnActive");
+      const inactivebtn = document.getElementById("btnInactive");
+
+      document.addEventListener("change", function (e) {
+        if (!e.target.classList.contains("toggle")) {
+          return;
+        }
+        const card = e.target.closest(".cat1");
+        if (e.target.checked) {
+          card.dataset.status = "active";
+          card.classList.add("active");
+        } else {
+          card.dataset.status = "inactive";
+          card.classList.remove("active");
+        }
+      });
+      document.addEventListener("click", function (e) {
+        if (!e.target.classList.contains("removeBtn")) {
+          return;
+        }
+        const card = e.target.closest(".cat1");
+
+        const toggle = card.querySelector(".toggle");
+
+        toggle.checked = false;
+        card.dataset.status = "inactive";
+        card.classList.remove("active");
+      });
+      allbtn.onclick = () => {
+        cards.forEach((card) => {
+          card.style.display = "block";
+        });
+      };
+
+      activebtn.onclick = () => {
+        cards.forEach((card) => {
+          card.style.display =
+            card.dataset.status === "active" ? "block" : "none";
+        });
+      };
+
+      inactivebtn.onclick = () => {
+        cards.forEach((card) => {
+          card.style.display =
+            card.dataset.status === "inactive" ? "block" : "none";
+        });
+      };
+      function button() {
+        window.location.replace("index.html");
+      }
+      function but() {
+        window.location.replace("index2.html");
+      }
+    </script>
+  </body>
+</html>

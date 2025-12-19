@@ -1,0 +1,523 @@
+@media screen and (max-width:1440px) {
+    @font-face {
+        font-family: NotoSans-Bold;
+        src: url(NotoSans-Bold.ttf);
+    }
+
+    @font-face {
+        font-family: NotoSans-Medium;
+        src: url(NotoSans-Medium.ttf);
+
+        font-family: NotoSans-Regular;
+        src: url(NotoSans-Regular.ttf);
+
+    }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: inherit;
+    }
+
+    body {
+        background-color: hsl(217, 61%, 90%);
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .budy {
+        background-color: hsl(227, 75%, 14%);
+        margin-bottom: 2rem;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 2.0rem;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        align-items: center;
+    }
+
+    .menu {
+
+        display: flex;
+        justify-content: space-between;
+        background-color: #212124;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 2.0rem;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        align-items: center;
+    }
+
+    .txt {
+        img {
+            height: 2rem;
+            color: #1c2331;
+        }
+    }
+
+    .txt3 {
+        img {
+            height: 2rem;
+            color: #ffffff;
+        }
+    }
+
+    .moon {
+        button {
+            background-color: hsl(226, 11%, 37%);
+            border: none;
+            padding-top: 0.2rem;
+            padding-left: 0.4rem;
+            padding-right: 0.4rem;
+            padding-bottom: 0.2rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+
+        }
+
+        button:hover {
+            border: 0.125rem solid hsl(3, 71%, 56%);
+        }
+    }
+
+    .main1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 1.0rem;
+
+    }
+
+    .moon1 {
+        margin-right: 0.5rem;
+
+        button {
+            padding: 0.6rem 0.8rem;
+            border-radius: 40%;
+            border: 0.0625rem solid gray;
+            font-weight: bold;
+            cursor: pointer;
+            color: #141415;
+            background-color: #ffffff;
+        }
+
+        button:hover {
+            border: 0.125rem solid hsl(3, 71%, 56%);
+            background-color: hsl(3, 77%, 44%);
+            color: white;
+
+        }
+    }
+
+    .mon1 {
+        margin-right: 0.5rem;
+
+        button {
+
+            padding: 0.6rem 0.8rem;
+            border-radius: 40%;
+            border: 0.0625rem solid gray;
+            font-weight: bold;
+            cursor: pointer;
+            color: #ffffff;
+            background-color: hsl(226, 11%, 37%);
+        }
+
+        button:hover {
+            border: 0.125rem solid hsl(3, 71%, 56%);
+            background-color: hsl(3, 77%, 44%);
+
+        }
+    }
+
+    .submain {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    #sub1 {
+        display: flex;
+        margin-bottom: 0.3125rem;
+    }
+
+    .cart {
+        display: flex;
+        margin-bottom: 0.5rem;
+
+        img {
+            width: 2.5rem;
+            margin-right: 0.5rem;
+
+        }
+
+        h4 {
+            margin-bottom: 0.125rem;
+            color: #1f2a38;
+            font-family: NotoSans-Bold;
+            font-weight: 500;
+        }
+
+        p {
+            color: #6c7486;
+            font-family: NotoSans-Regular;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    .cat {
+        display: flex;
+        margin-bottom: 0.5rem;
+
+        img {
+            width: 2.5rem;
+            margin-right: 0.5rem;
+
+        }
+
+        h4 {
+            margin-bottom: 0.125rem;
+            color: #ffffff;
+            font-family: NotoSans-Bold;
+            font-weight: 500;
+        }
+
+        p {
+            color: rgb(207, 206, 206);
+            font-family: NotoSans-Regular;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+
+    .cart1 {
+        background-color: hsl(200, 60%, 99%);
+        width: 31.25rem;
+        margin-right: 0.7rem;
+        padding: 0.625rem 0.625rem;
+        border-radius: 0.8rem;
+    }
+
+    .cat1 {
+
+        background-color: hsl(225, 23%, 24%);
+        width: 31.25rem;
+        margin-right: 0.7rem;
+        padding: 0.625rem 0.625rem;
+        border-radius: 0.8rem;
+        border: 0.0625rem solid gray;
+    }
+
+    .cart2 {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 1.875rem;
+        margin-top: 1.5rem;
+
+        button {
+            padding: 0.25rem 0.25rem;
+            border-radius: 0.625rem;
+            border: 0.0625rem solid gray;
+            cursor: pointer;
+            background-color: hsl(0, 0%, 93%);
+            font-weight: 500;
+            font-family: NotoSans-Medium;
+        }
+
+        button:hover {
+
+            border: 0.125rem solid hsl(3, 71%, 56%);
+            background-color: hsl(3, 77%, 44%);
+        }
+    }
+
+    .txt3 {
+        display: flex;
+        padding: 0.3125rem 0.3125rem;
+
+        img {
+            height: 1.8rem;
+            color: #ffffff;
+            border-radius: 0.3125rem;
+            margin-right: 0.625rem;
+            background-color: #212124;
+        }
+
+        h3 {
+            color: #ffffff;
+            margin-top: 0.375rem;
+            font-family: NotoSans-Bold;
+        }
+    }
+
+    .cat2 {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 1.875rem;
+        margin-top: 1.5rem;
+
+        button {
+            padding: 0.25rem 0.25rem;
+            border-radius: 0.625rem;
+            border: 0.0625rem solid gray;
+            cursor: pointer;
+            color: #ffffff;
+            background-color: hsl(226, 25%, 17%);
+            font-family: NotoSans-Bold;
+            font-weight: 500;
+        }
+
+        button:hover {
+
+            border: 0.125rem solid hsl(3, 71%, 56%);
+            background-color: hsl(3, 77%, 44%);
+        }
+    }
+
+    .but {
+        justify-content: space-between;
+    }
+
+    .txt1 {
+        h1 {
+            color: linear-gradient(180deg, #040918 0%, #091540 100%);
+            font-family: NotoSans-Bold;
+            font-size: 1.875rem;
+        }
+    }
+
+    .txt2 {
+        h1 {
+            color: white;
+            font-family: NotoSans-Bold;
+            font-size: 1.875rem;
+        }
+    }
+
+    /* for creating container*/
+    .switch {
+        width: 2rem;
+        height: 1.rem;
+        position: absolute;
+        display: inline-block;
+
+
+        /*for hidden the checkbox*/
+        input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+
+    /*for tracting the button*/
+    .slider {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        cursor: pointer;
+        background-color: #c7ccd8;
+        border-radius: 2.125rem;
+    }
+
+    /* for creating the thumb or circle*/
+    .slider::before {
+        content: "";
+        position: absolute;
+        bottom: 0.1875rem;
+        left: 0.1875rem;
+        background-color: white;
+        width: 0.8125rem;
+        height: 0.8125rem;
+        border-radius: 50%;
+        justify-content: center;
+    }
+
+    input:checked+.slider {
+        background-color: hsl(3, 71%, 56%);
+    }
+
+    input:checked+.slider::before {
+        transform: translateX(0.9375rem);
+    }
+
+}
+
+@media (min-width:20rem) and (max-width:23.4375rem) {
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        align-items: center;
+        font-size: medium;
+    }
+
+    .menu {
+
+        display: flex;
+        justify-content: space-between;
+        background-color: #212124;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        align-items: center;
+    }
+
+
+    .main1 {
+        display: block;
+        align-items: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-bottom: 1.25rem;
+
+        h3 {
+            font-size: 1.25rem;
+            word-spacing: 0.3125rem;
+            margin-bottom: 1rem;
+        }
+
+    }
+
+    .submain {
+        margin-left: 0.5rem;
+
+    }
+
+    .moon1 {
+        justify-content: space-between;
+
+
+        button {
+            padding: 0.3125rem 1rem;
+            border-radius: 0.75rem;
+            border: none;
+            font-weight: 400;
+            margin-right: 0.5rem;
+            font-family: NotoSans-Regular;
+        }
+    }
+
+    .mon1 {
+
+        button {
+            padding: 0.3125rem 1.2rem;
+            border-radius: 0.75rem;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            color: #ffffff;
+            background-color: #3a3a3d;
+            margin-right: 0.2rem;
+        }
+
+        button:hover {
+            border: 0.125rem solid #ff4d5a;
+            background-color: #ff4d5a;
+
+        }
+    }
+
+
+    #sub1 {
+        display: block;
+        margin-bottom: 0.3125rem;
+    }
+
+    .cart1 {
+        background-color: hsl(200, 60%, 99%);
+        width: 22.5rem;
+        margin-right: 0.3125rem;
+        padding: 0.625rem 0.625rem;
+        border-radius: 1.2rem;
+        margin-bottom: 0.3125rem;
+    }
+
+    .cat1 {
+
+        background-color: #252529;
+        width: 22.5rem;
+        padding: 0.625rem 0.625rem;
+        border-radius: 1.2rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0;
+    }
+
+
+    .cart2 {
+        button {
+            font-weight: bold;
+            background-color: hsl(0, 0%, 93%);
+        }
+
+    }
+
+    .txt {
+        img {
+            height: 2rem;
+
+        }
+    }
+
+    .txt3 {
+        display: flex;
+        padding: 0.3125rem 0.3125rem;
+
+        img {
+            height: 2rem;
+            color: #ffffff;
+            border-radius: 0.3125rem;
+            margin-right: 0.625rem;
+            background-color: #212124;
+        }
+
+        h3 {
+            color: #ffffff;
+            margin-top: 0.375rem;
+        }
+    }
+
+    .txt1 {
+        h1 {
+            color: linear-gradient(180deg, #040918 0%, #091540 100%);
+            font-family: NotoSans-Bold;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .txt2 {
+        h1 {
+            color: white;
+            font-family: NotoSans-Bold;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+}
